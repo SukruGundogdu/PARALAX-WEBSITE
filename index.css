@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.img1, .img2, .img3, .img4 {
+    opacity: 0.5;
+}
