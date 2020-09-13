@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+/* div {
+    display: block;
+} */
+
 body, html {
     height: 100%;
     font-family: "Lato", sans-serif;
@@ -29,13 +33,51 @@ body, html {
 }
 
 .img1, .img2, .img3 {
-    position: relative;
+    /* position: relative; */
     opacity: 0.7;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    text-align: center;
+}
+
+.img1-text {
+    /* border: 2px solid red; */
+    position: absolute;
+    letter-spacing: 8px;
+    margin-top: 47.8vh;
+}
+
+.img1-head {
+    /* border: 1px solid red; */
+    background-color: #111;
+    color: #ffff;
+    font-size: 27px;
+    padding: 20px;
+}
+
+#first-image {
+    margin-left: 45vh;
+}
+
+.img2-text, .img3-text {
+    /* border: 2px solid red; */
+    position: absolute;
+    letter-spacing: 8px;
+    margin-top: 20vh;
+    margin-left: 35%;
+
+}
+
+.img2-head, .img3-head {
+    background-color:none;
+    color:#ffff;
+    font-size: 27px;
+    padding: 20px;
+}
+
+#last-image {
+    margin-left: 34vh;
 }
 
 .text1, .text2, .text3 {
